@@ -1,0 +1,137 @@
+personal_info:
+  first_name: Mykyta
+  last_name: Kasianenko
+  email: mykytakasianenko@gmail.com
+  phone: "+48661391737"
+  location: Poland, Bydgoszcz
+  linkedin: https://www.linkedin.com/in/mykyta-kasianenko/
+  positions:
+    - Software Engineer
+    - Python Developer
+    - Golang Developer
+
+summary: |
+  Full stack software engineer with expertise in Python and Golang. Passionate about optimizing performance and writing simple, maintainable code. Avoids unnecessary abstractions and complexity unless essential. Enjoys crafting elegant SQL queries instead of reinventing SQL aggregation in backend services.
+
+experience:
+  - title: Software Engineer
+    company: Empat
+    employment_type: Full-time
+    work_mode: Hybrid
+    location: Kyiv, Ukraine
+    start_date: May 2024
+    end_date: Present
+    responsibilities:
+      - Developing and maintaining backend applications using Python
+      - Optimizing backend performance and implementing efficient database solutions
+      - Actively improve tech expertize of the team
+      - Enforcing code quality standards and simple architecture patterns
+
+projects:
+  - name: House Caddy
+    company: Empat
+    role: Software Engineer
+    start_date: May 2025
+    end_date: Present
+    achievements:
+      - Led project estimation and backend architecture design
+      - Enforced simple and readable code conventions and architecture patterns
+      - Implemented CI/CD pipeline with type checker, linter, and formatter
+      - Protected codebase from unnecessary abstractions while developing new features
+      - Achieved easy developer onboarding, strongly decoupled feature modules, and fast development pace
+
+  - name: KnetMiner
+    company: Empat
+    role: Software Engineer
+    start_date: Feb 2025
+    end_date: Jul 2025
+    achievements:
+      - Fixed critical bugs in existing codebase
+      - Refactored overly complicated code to simple, maintainable solutions
+
+  - name: BigSister AI CRM
+    company: Empat
+    role: Backend Developer
+    start_date: Feb 2025
+    end_date: Jun 2025
+    achievements:
+      - Fixed bugs in data pipeline and improved system reliability
+      - Developed AI-powered notes feature for salesman activity tracking
+      - Eliminated third-party service dependency, reducing costs and simplifying backend logic
+
+  - name: Circleup
+    company: Empat
+    role: Full Stack Developer
+    start_date: Feb 2025
+    end_date: Jun 2025
+    achievements:
+      - Resolved backend and frontend bugs to improve application stability
+      - Worked with Django backend and React.js frontend technologies
+
+  - name: Blockchain R & D
+    company: Empat
+    role: Blockchain Developer
+    start_date: Feb 2025
+    end_date: Mar 2025
+    achievements:
+      - Developed smart contracts using Solana and Rust with Anchor framework
+      - Integrated smart contract calls and transactions into Next.js frontend
+      - Gained expertise in cryptocurrency and blockchain technologies
+
+  - name: ShredSpots
+    company: Empat
+    role: Backend Developer
+    start_date: May 2024
+    end_date: Feb 2025
+    achievements:
+      - Optimized backend performance from >20 seconds to <1 second for critical requests
+      - Migrated high-load logic to efficient SQL queries
+      - Refactored complex code to simple, maintainable solutions
+      - Implemented AI-powered auto-filling for spot information
+      - Migrated project from Firebase to custom backend infrastructure
+      - Introduced comprehensive testing
+
+skills:
+  programming_languages:
+    - Python
+    - Golang
+    - JavaScript
+    - TypeScript
+    - SQL
+
+  frameworks_and_technologies:
+    - FastAPI
+    - Django
+    - React.js
+    - Next.js
+    - Anchor Framework
+
+  cloud_and_infrastructure:
+    - Google Cloud Platform
+    - AWS
+    - Vertex AI
+    - Firebase
+    - CI/CD
+    - Docker
+
+  databases_and_tools:
+    - PostgreSQL
+    - Redis
+    - Google BigQuery
+
+  blockchain:
+    - Solana
+    - Smart Contracts
+    - Cryptocurrency
+
+education:
+  - institution: V. N. Karazin Kharkiv National University
+    location: Kharkiv, Ukraine
+    degree: Bachelor's degree
+    field: Computer Science
+    start_date: Sep 2020
+    end_date: May 2024
+    highlights:
+      - Completed comprehensive computer science curriculum
+      - Gained expertise in software engineering principles and practices
+      - Developed strong foundation in algorithms, data structures, and system design
