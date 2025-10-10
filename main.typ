@@ -1,6 +1,5 @@
 #import "@preview/modern-cv:0.8.0": *
 
-// Load YAML data
 #let cv-data = yaml("info.yaml")
 
 #show: resume.with(
