@@ -3,8 +3,6 @@ name: Build CV PDF
 on:
   push:
     branches: [ main, master ]
-    tags:
-      - 'v*'
   pull_request:
     branches: [ main, master ]
   workflow_dispatch:
@@ -19,6 +17,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Typst
         uses: typst-community/setup-typst@v3
@@ -42,13 +42,28 @@ jobs:
           path: main.pdf
           retention-days: 30
 
+      - name: Get commit info
+        if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master')
+        id: commit_info
+        run: |
+          COMMIT_DATE=$(git log -1 --format=%cd --date=format:'%Y.%m.%d-%H%M%S')
+          COMMIT_MSG=$(git log -1 --format=%s)
+          echo "date=$COMMIT_DATE" >> $GITHUB_OUTPUT
+          echo "message=$COMMIT_MSG" >> $GITHUB_OUTPUT
+
       - name: Create Release
-        if: startsWith(github.ref, 'refs/tags/')
+        if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master')
         uses: softprops/action-gh-release@v1
         with:
+          tag_name: v${{ steps.commit_info.outputs.date }}
+          name: ${{ steps.commit_info.outputs.message }}
           files: main.pdf
           body: |
-            CV PDF build for ${{ github.ref_name }}
+            **CV PDF Build**
+
+            📅 Date: ${{ steps.commit_info.outputs.date }}
+            📝 Commit: ${{ steps.commit_info.outputs.message }}
+            🔗 Commit SHA: ${{ github.sha }}
 
             Download the CV PDF from the assets below.
           draft: false
