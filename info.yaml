@@ -36,7 +36,7 @@ projects:
     achievements:
       - Led project estimation and backend architecture design
       - Enforced simple and readable code conventions and architecture patterns
-      - Implemented CI/CD pipeline with type checker, linter, and formatter
+      - Enforced code quality via CI/CD pipeline with type checker, linter, and formatter
       - Protected codebase from unnecessary abstractions while developing new features
       - Achieved easy developer onboarding, strongly decoupled feature modules, and fast development pace
 
