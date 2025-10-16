@@ -25,6 +25,32 @@ jobs:
         with:
           typst-version: 'latest'
 
+      - name: Install required fonts
+        run: |
+          # Create fonts directory
+          sudo mkdir -p /usr/share/fonts/truetype/custom
+
+          # Install Roboto
+          wget -q https://github.com/google/roboto/releases/download/v2.138/roboto-unhinted.zip
+          unzip -q roboto-unhinted.zip -d roboto
+          sudo cp roboto/*.ttf /usr/share/fonts/truetype/custom/
+
+          # Install Source Sans Pro
+          wget -q https://github.com/adobe-fonts/source-sans/releases/download/3.052R/TTF-source-sans-3.052R.zip
+          unzip -q TTF-source-sans-3.052R.zip -d source-sans
+          sudo cp source-sans/TTF/*.ttf /usr/share/fonts/truetype/custom/
+
+          # Install FontAwesome
+          wget -q https://use.fontawesome.com/releases/v6.5.1/fontawesome-free-6.5.1-desktop.zip
+          unzip -q fontawesome-free-6.5.1-desktop.zip
+          sudo cp fontawesome-free-6.5.1-desktop/otfs/*.otf /usr/share/fonts/truetype/custom/
+
+          # Refresh font cache
+          sudo fc-cache -f -v
+
+          # Cleanup
+          rm -rf roboto* source-sans* fontawesome-free* *.zip
+
       - name: Build PDF
         run: typst compile main.typ CV-Mykyta-Kasianenko.pdf
 
