@@ -14,7 +14,7 @@
   #text(size: 24pt, weight: "bold")[Mykyta Kasianenko]
 
   #v(0.2em)
-  #text(size: 12pt, fill: rgb("#444444"))[Full Stack Software Engineer]
+  #text(size: 12pt, fill: rgb("#444444"))[Python Software Engineer]
 
   #v(0.4em)
   #text(size: 9pt, fill: rgb("#666666"))[
