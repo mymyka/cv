@@ -14,7 +14,7 @@
   #text(size: 24pt, weight: "bold")[Mykyta Kasianenko]
 
   #v(0.2em)
-  #text(size: 12pt, fill: rgb("#444444"))[Python Software Engineer]
+  #text(size: 12pt, fill: rgb("#444444"))[Python / AI Software Engineer]
 
   #v(0.4em)
   #text(size: 9pt, fill: rgb("#666666"))[
@@ -44,12 +44,12 @@
   columns: (1fr, auto),
   gutter: 1em,
   [
-    #text(weight: "bold", size: 11pt)[Software Engineer] \
+    #text(weight: "bold", size: 11pt)[Python / AI Software Engineer] \
     #text(style: "italic", size: 10pt, fill: rgb("#555555"))[Empat • Full-time • Hybrid]
   ],
   [
     #align(right)[
-      #text(weight: "bold", size: 10pt)[May 2024 – Present] \
+      #text(weight: "bold", size: 10pt)[January 2024 – Present] \
       #text(size: 9pt, fill: rgb("#666666"))[Kyiv, Ukraine]
     ]
   ],
@@ -62,6 +62,29 @@
 - Led scalable and maintainable backend architecture design and project
 - Migrated high-load logic from Firebase to custom infrastructure, reducing costs and improving control
 - Fixed critical production bugs, maintaining system stability and reliability
+
+#grid(
+  columns: (1fr, auto),
+  gutter: 1em,
+  [
+    #text(weight: "bold", size: 11pt)[Python / AI Software Engineer] \
+    #text(style: "italic", size: 10pt, fill: rgb("#555555"))[Freelance • Full-time • Remote]
+  ],
+  [
+    #align(right)[
+      #text(weight: "bold", size: 10pt)[January 2022 – January 2024] \
+      #text(size: 9pt, fill: rgb("#666666"))[Kyiv, Ukraine]
+    ]
+  ],
+)
+
+#v(0.4em)
+
+#set list(marker: [•], indent: 0.5em, body-indent: 0.5em)
+- Fixed critical performance bugs
+- Improved conversion on marketing websites
+- Integrated A/B testing and feature flags
+- Delivered key product features
 
 #v(1.2em)
 
