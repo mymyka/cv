@@ -58,7 +58,7 @@
 #v(0.4em)
 
 #set list(marker: [•], indent: 0.5em, body-indent: 0.5em)
-- Optimized critical backend performance by 40%, significantly improving system efficiency and user experience
+- Optimized critical backend performance, went from 1 minute to couple of seconds loading, significantly improving system efficiency and user experience
 - Led scalable and maintainable backend architecture design and project
 - Migrated high-load logic from Firebase to custom infrastructure, reducing costs and improving control
 - Fixed critical production bugs, maintaining system stability and reliability
