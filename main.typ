@@ -20,7 +20,7 @@
   #text(size: 9pt, fill: rgb("#666666"))[
     #link("mailto:mykytakasianenko@gmail.com")[mykytakasianenko\@gmail.com] |
     +48 661 391 737 |
-    Poland, Warszawa |
+    Poland, Warsaw |
     #link("https://www.linkedin.com/in/mykyta-kasianenko/")[
       #underline()[
         #text(
