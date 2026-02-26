@@ -5,7 +5,7 @@
   #box(
     width: 3cm,
     height: 3cm,
-    image("profile.jpg", width: 3cm, height: 3cm, fit: "cover"),
+    image("assets/profile.jpg", width: 3cm, height: 3cm, fit: "cover"),
     clip: true,
     radius: 150pt,
   )
