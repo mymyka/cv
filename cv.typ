@@ -49,7 +49,7 @@
   ],
   [
     #align(right)[
-      #text(weight: "bold", size: 10pt)[January 2024 – Present] \
+      #text(weight: "bold", size: 10pt)[Apr 2024 – Present] \
       #text(size: 9pt, fill: rgb("#666666"))[Kyiv, Ukraine]
     ]
   ],
@@ -72,7 +72,7 @@
   ],
   [
     #align(right)[
-      #text(weight: "bold", size: 10pt)[January 2022 – January 2024] \
+      #text(weight: "bold", size: 10pt)[Apr 2022 – May 2024] \
       #text(size: 9pt, fill: rgb("#666666"))[Kyiv, Ukraine]
     ]
   ],
