@@ -125,7 +125,7 @@
       inset: (x: 5pt, y: 2pt),
       text(size: 8pt, weight: "bold", fill: rgb("#444444"))[#cefr],
     ),
-    text(size: 9pt, fill: rgb("#888888"))[— #level],
+    text(size: 9pt, fill: rgb("#888888"))[],
   )
   v(0.2em)
 }
