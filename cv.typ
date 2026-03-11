@@ -66,7 +66,7 @@
   ],
   [
     #align(right)[
-      #text(weight: "bold", size: 10pt)[Apr 2022 – May 2024] \
+      #text(weight: "bold", size: 10pt)[May 2022 – Apr 2024] \
       #text(size: 9pt, fill: rgb("#666666"))[Kyiv, Ukraine]
     ]
   ],
