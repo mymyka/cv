@@ -107,7 +107,7 @@
   *Frameworks & Libraries:* FastAPI, Django, React.js, Next.js, Anchor Framework \
   *Cloud & Infrastructure:* Google Cloud Platform, AWS, Firebase, Docker, CI/CD \
   *Databases & Storage:* PostgreSQL, Redis, Google BigQuery \
-  *AI & Machine Learning:* Vertex AI, LLM, LangChain \
+  *AI & Machine Learning:* Vertex AI, LLM, LangChain, GenAI \
 ]
 
 #section("Languages")
